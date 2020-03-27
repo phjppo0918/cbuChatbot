@@ -4,8 +4,8 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB) {
     }else if(msg.indexOf("!스터디")==0){
         replier.reply("통계학 스터디 스터디원 모집 -- 광종님");
         replier.reply("자바 기초 스터디 스터디원 모집 -- 현준님");
-        replier.reply("C++ 기초 스터디 스터디원 모집 -- 원택님");
-        replier.reply("파이썬 기초 스터디 스터디원 모집 -- 현정님");
+        replier.reply("자바 스터디 원하시는 분들은 자바스터디 테스트 작성 후 저에게 제출!");
+
 
     }else if(msg.indexOf("!프로젝트")==0){
         replier.reply("모집중인 프로젝트가 없습니다 ㅠㅠ");
